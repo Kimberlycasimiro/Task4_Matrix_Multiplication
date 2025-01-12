@@ -1,0 +1,11 @@
+apple banana orange
+apple banana strawberry
+apple banana pineapple
+apple banana lemon
+apple banana cherry
+apple orange strawberry
+apple orange pineapple
+apple orange lemon
+apple orange cherry
+apple strawberry pineapple
+apple strawberry lemon

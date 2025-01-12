@@ -1,0 +1,316 @@
+[ {
+  "Score" : 0.20147513519698865,
+  "matrixSize" : "64",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.basicMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.016793996162875763,
+  "numThreads" : null,
+  "Units" : "ms/op"
+}, {
+  "Score" : 1.6970826123514278,
+  "matrixSize" : "128",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.basicMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.8353842182172618,
+  "numThreads" : null,
+  "Units" : "ms/op"
+}, {
+  "Score" : 17.69053539787876,
+  "matrixSize" : "256",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.basicMultiplication",
+  "Cnt" : 5,
+  "Error" : 2.421485945603351,
+  "numThreads" : null,
+  "Units" : "ms/op"
+}, {
+  "Score" : 172.58357,
+  "matrixSize" : "512",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.basicMultiplication",
+  "Cnt" : 5,
+  "Error" : 8.666911321769676,
+  "numThreads" : null,
+  "Units" : "ms/op"
+}, {
+  "Score" : 16328.76708,
+  "matrixSize" : "1024",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.basicMultiplication",
+  "Cnt" : 5,
+  "Error" : 44863.306534515315,
+  "numThreads" : null,
+  "Units" : "ms/op"
+}, {
+  "Score" : 3369.28398,
+  "matrixSize" : "64",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.mapReduceMultiplication",
+  "Cnt" : 5,
+  "Error" : 3393.4520498707425,
+  "numThreads" : null,
+  "Units" : "ms/op"
+}, {
+  "Score" : 40859.796619999994,
+  "matrixSize" : "128",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.mapReduceMultiplication",
+  "Cnt" : 5,
+  "Error" : 55848.03265688764,
+  "numThreads" : null,
+  "Units" : "ms/op"
+}, {
+  "Score" : 172394.60643999997,
+  "matrixSize" : "256",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.mapReduceMultiplication",
+  "Cnt" : 5,
+  "Error" : 422336.92690008046,
+  "numThreads" : null,
+  "Units" : "ms/op"
+}, {
+  "Score" : 755736.1925000001,
+  "matrixSize" : "512",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.mapReduceMultiplication",
+  "Cnt" : 5,
+  "Error" : 747219.8334547939,
+  "numThreads" : null,
+  "Units" : "ms/op"
+}, {
+  "Score" : 7291218.736959999,
+  "matrixSize" : "1024",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.mapReduceMultiplication",
+  "Cnt" : 5,
+  "Error" : 7407629.286209613,
+  "numThreads" : null,
+  "Units" : "ms/op"
+}, {
+  "Score" : 0.40489336314772295,
+  "matrixSize" : "64",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.6258239931769435,
+  "numThreads" : "1",
+  "Units" : "ms/op"
+}, {
+  "Score" : 0.5053828991179178,
+  "matrixSize" : "64",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.37692009924370196,
+  "numThreads" : "2",
+  "Units" : "ms/op"
+}, {
+  "Score" : 0.7760724121867251,
+  "matrixSize" : "64",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.645186051200912,
+  "numThreads" : "4",
+  "Units" : "ms/op"
+}, {
+  "Score" : 1.413566219511188,
+  "matrixSize" : "64",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 1.1504302024940845,
+  "numThreads" : "8",
+  "Units" : "ms/op"
+}, {
+  "Score" : 3.4657818450434723,
+  "matrixSize" : "64",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 5.7033872917794115,
+  "numThreads" : "16",
+  "Units" : "ms/op"
+}, {
+  "Score" : 0.9288213734687556,
+  "matrixSize" : "128",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.09250695807057539,
+  "numThreads" : "1",
+  "Units" : "ms/op"
+}, {
+  "Score" : 1.029430694723552,
+  "matrixSize" : "128",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 1.3915611464032356,
+  "numThreads" : "2",
+  "Units" : "ms/op"
+}, {
+  "Score" : 0.841011562032848,
+  "matrixSize" : "128",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.5028143260954094,
+  "numThreads" : "4",
+  "Units" : "ms/op"
+}, {
+  "Score" : 1.4883698450520328,
+  "matrixSize" : "128",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.9529260706954431,
+  "numThreads" : "8",
+  "Units" : "ms/op"
+}, {
+  "Score" : 3.009822317526479,
+  "matrixSize" : "128",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 3.0311723222731386,
+  "numThreads" : "16",
+  "Units" : "ms/op"
+}, {
+  "Score" : 7.212266830851428,
+  "matrixSize" : "256",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.10693530899211394,
+  "numThreads" : "1",
+  "Units" : "ms/op"
+}, {
+  "Score" : 3.9346117004677565,
+  "matrixSize" : "256",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.11962068002427793,
+  "numThreads" : "2",
+  "Units" : "ms/op"
+}, {
+  "Score" : 2.813241987081052,
+  "matrixSize" : "256",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 2.166177384635093,
+  "numThreads" : "4",
+  "Units" : "ms/op"
+}, {
+  "Score" : 2.2042792725443143,
+  "matrixSize" : "256",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 1.7751792685477281,
+  "numThreads" : "8",
+  "Units" : "ms/op"
+}, {
+  "Score" : 2.9766297302451115,
+  "matrixSize" : "256",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 2.2856946973381698,
+  "numThreads" : "16",
+  "Units" : "ms/op"
+}, {
+  "Score" : 58.78745535947712,
+  "matrixSize" : "512",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.9528815914230221,
+  "numThreads" : "1",
+  "Units" : "ms/op"
+}, {
+  "Score" : 30.25271176470588,
+  "matrixSize" : "512",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.34043606102365126,
+  "numThreads" : "2",
+  "Units" : "ms/op"
+}, {
+  "Score" : 15.747528240384616,
+  "matrixSize" : "512",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.15046587690093127,
+  "numThreads" : "4",
+  "Units" : "ms/op"
+}, {
+  "Score" : 9.858955079002476,
+  "matrixSize" : "512",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.11972314531928024,
+  "numThreads" : "8",
+  "Units" : "ms/op"
+}, {
+  "Score" : 7.589308807809346,
+  "matrixSize" : "512",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.8465913046284301,
+  "numThreads" : "16",
+  "Units" : "ms/op"
+}, {
+  "Score" : 483.2739466666667,
+  "matrixSize" : "1024",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 10.69752280745883,
+  "numThreads" : "1",
+  "Units" : "ms/op"
+}, {
+  "Score" : 243.319948,
+  "matrixSize" : "1024",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 3.38974522073719,
+  "numThreads" : "2",
+  "Units" : "ms/op"
+}, {
+  "Score" : 124.32932666666666,
+  "matrixSize" : "1024",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 0.7619815011094407,
+  "numThreads" : "4",
+  "Units" : "ms/op"
+}, {
+  "Score" : 73.88345714285715,
+  "matrixSize" : "1024",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 1.5136016861903596,
+  "numThreads" : "8",
+  "Units" : "ms/op"
+}, {
+  "Score" : 48.74059142857143,
+  "matrixSize" : "1024",
+  "Mode" : "AverageTime",
+  "Benchmark" : "org.ulpgc.benchmark.BenchmarkMatrixMultiplication.parallelMultiplication",
+  "Cnt" : 5,
+  "Error" : 1.072494785342913,
+  "numThreads" : "16",
+  "Units" : "ms/op"
+} ]
